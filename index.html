@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <!-- viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- vue -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+  <!-- api axios -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js" charset="utf-8"></script>
+  <title>Api</title>
+</head>
+<body>
+  <div id="root">
+    <ul>
+      <li v-for="mail in mails">{{ mail }}</li>
+    </ul>
+  </div>
+  <!-- main script -->
+  <script src="main.js" charset="utf-8"></script>
+</body>
+</html>
